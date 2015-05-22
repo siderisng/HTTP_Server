@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF8"?>
+<ce325server>
+<listen port="9004" />
+<statistics port="8001" />
+<log>
+<access filepath="C:\Users\George\Desktop\http_server\RD\MORE\access.txt" />
+<error filepath="C:\Users\George\Desktop\http_server\RD\MORE\error.txt" />
+</log>
+<documentroot filepath="C:\Users\George\Desktop\http_server\RD" />
+<runphp>
+yes </runphp>
+<denyaccess>
+<ip> 52.8.64.0/24 </ip>
+<ip> 195.168.0.0/19 </ip>
+</denyaccess>
+</ce325server>
